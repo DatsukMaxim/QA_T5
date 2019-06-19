@@ -9,8 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Task_1 {
-
-
     public WebDriver driver;
 
     @Before
@@ -20,7 +18,7 @@ public class Task_1 {
     }
 
     @Test
-    public void firstTest() {
+    public void test() {
         driver.manage().window().maximize();
         driver.navigate().to("https://rasp.yandex.ru");
 
