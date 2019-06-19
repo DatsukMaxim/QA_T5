@@ -15,7 +15,7 @@ public class TestTask {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Users/wwwma/IdeaProjects/QA_T5/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
